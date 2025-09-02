@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #1e272e, #0a1128);
+    color: #f5f6fa;
+    transition: all 0.5s ease;
+}
+
+a {
+    color: #a29bfe;
+    text-decoration: none;
+}
+
+h2 {
+    border-bottom: 3px solid #81ecec;
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.colorful-section {
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 1000px;
+    background: rgba(30, 41, 59, 0.8);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #34495e;
+    text-align: left;
+}
+
+.colorful-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.skill-highlight {
+    color: #81ecec;
+}
+
+.project-title {
+    color: #fab1a0;
+}
+
+.education-degree {
+    color: #ffeaa7;
+}
+
+.education-school {
+    color: #a29bfe;
+}
+
+#welcome-text {
+    color: #ff6b6b;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 3rem;
+}
+
+.colorful-header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(to right, #2c3e50, #4a148c);
+    color: #fff;
+    animation: header-glow 3s infinite alternate;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 15px 15px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile-image-container {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #34495e;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    animation: border-pulsate 2s infinite alternate;
+    padding: 5px;
+    background-color: #2c3e50;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+@keyframes border-pulsate {
+    0% { border-color: #34495e; }
+    100% { border-color: #81ecec; }
+}
+
+@keyframes header-glow {
+    0% { box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); }
+    100% { box-shadow: 0 4px 15px rgba(44, 62, 80, 0.7); }
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-subtitle {
+    font-size: 1.1rem;
+    margin-top: 5px;
+    color: #bdc3c7;
+}
+
+.resume-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.resume-btn, .download-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    background: #81ecec;
+    color: #1e272e;
+}
+
+.resume-btn:hover, .download-btn:hover {
+    background: #74b9ff;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 12px;
+    line-height: 1.7;
+    color: #ecf0f1;
+}
+.resume-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.resume-buttons a {
+    background: #81ecec;
+    color: #1e272e;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.resume-buttons a:hover {
+    background: #00cec9;
+    color: white;
+    transform: translateY(-3px);
+}
+
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.skill-item {
+    padding: 15px;
+    border: 1px solid #34495e;
+    border-radius: 8px;
+    background-color: #2c3e50;
+    text-align: left;
+    color: #ecf0f1;
+}
+
+.left-align {
+    text-align: left;
+}
+
+/* Top Navigation Menu */
+.top-nav {
+    position: sticky;      /* Make the navbar sticky */
+    top: 0;                /* Stick at the top */
+    right: 0;
+    width: 100%;
+    background-color: rgba(30, 41, 59, 0.95);
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    padding: 10px 30px;
+}
+
+.top-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav ul li a {
+    text-decoration: none;
+    color: #81ecec;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.top-nav ul li a:hover {
+    background-color: #81ecec;
+    color: #1e272e;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
