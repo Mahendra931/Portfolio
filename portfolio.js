@@ -12,13 +12,13 @@ const viewBtn = document.querySelector('.resume-btn');
 const downloadBtn = document.querySelector('.download-btn');
 
 viewBtn.addEventListener('click', () => {
-    window.open('Mahendra_Resume.pdf', '_blank');
+    window.open('Mahendra_Kumar_Resume.pdf', '_blank');
 });
 
 downloadBtn.addEventListener('click', () => {
     const link = document.createElement('a');
-    link.href = 'Mahendra_Resume.pdf';
-    link.download = 'Mahendra_Resume.pdf';
+    link.href = 'Mahendra_Kumar_Resume.pdf';
+    link.download = 'Mahendra_Kumar_Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
