@@ -12,13 +12,13 @@ const viewBtn = document.querySelector('.resume-btn');
 const downloadBtn = document.querySelector('.download-btn');
 
 viewBtn.addEventListener('click', () => {
-    window.open('Mahendra _Kumar_Resume.pdf', '_blank');
+    window.open('Mahendra Kumar Resume Data Anytics.pdf', '_blank');
 });
 
 downloadBtn.addEventListener('click', () => {
     const link = document.createElement('a');
-    link.href = 'Mahendra _Kumar_Resumepdf';
-    link.download = 'Mahendra _Kumar_Resume.pdf';
+    link.href = 'Mahendra Kumar Resume Data Anytics.pdf';
+    link.download = 'Mahendra Kumar Resume Data Anytics.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
