@@ -12,7 +12,7 @@ const viewBtn = document.querySelector('.resume-btn');
 const downloadBtn = document.querySelector('.download-btn');
 
 viewBtn.addEventListener('click', () => {
-    window.open('Mahendra Kumar Resume Data Anytics.pdf', '_blank');
+    window.open('Mahendra Kumar Resume Data Anaytics.pdf', '_blank');
 });
 
 downloadBtn.addEventListener('click', () => {
