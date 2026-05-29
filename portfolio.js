@@ -1,4 +1,4 @@
-```javascript id="y2v8nq"
+
 // Smooth Scroll Navigation
 
 document.querySelectorAll('.top-nav a').forEach(link => {
@@ -60,4 +60,4 @@ downloadBtn.addEventListener('click', () => {
     document.body.removeChild(link);
 
 });
-```
+
