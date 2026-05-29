@@ -1,281 +1,132 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahendra Kumar Portfolio</title>
-
     <link rel="stylesheet" href="portfolio.css">
 </head>
-
 <body class="dark-mode">
 
-    <!-- Navigation -->
-
+    <!-- Top Navigation Menu -->
     <nav class="top-nav">
         <ul>
             <li><a href="#welcome-text">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href=".about">About</a></li>
+            <li><a href=".skills">Skills</a></li>
+            <li><a href=".projects">Projects</a></li>
+            <li><a href=".certifications">Certifications</a></li>
+            <li><a href=".education">Education</a></li>
+            <li><a href=".contact">Contact</a></li>
         </ul>
     </nav>
-
-    <!-- Welcome -->
 
     <div id="welcome-text">
         <h1>Mahendra Portfolio!</h1>
     </div>
 
-    <!-- Header -->
-
     <header class="colorful-header">
-
         <div class="profile-image-container">
             <img src="Mahi2.jpg" alt="Mahendra" class="profile-image">
         </div>
-
         <div class="header-text">
-
-            <h1 id="typewriter">
-                Data Analyst | Data Scientist | Power BI Developer
-            </h1>
-
-            <p class="header-subtitle">
-                B.Tech CSE (Data Science) |
-                Lamrin Tech Skills University
-            </p>
-
-            <p class="header-subtitle">
-                Tech Explorer | Quick Learner |
-                Future Data Scientist
-            </p>
-
+            <h1 id="typewriter">Aspiring Data Scientist & Web Developer</h1>
+            <p class="header-subtitle">B.Tech CSE (Data Science) | Lamrin Tech Skills University</p>
+            <p class="header-subtitle">Tech Explorer| Quick Learner | Future Data Scientist</p>
         </div>
-
-        <div class="resume-buttons">
-
-            <a href="Mahendra _Kumar_Resume.pdf"
-               target="_blank"
-               class="resume-btn">
-                View Resume
-            </a>
-
-            <a href="Mahendra _Kumar_Resume.pdf"
-               download
-               class="download-btn">
-                Download Resume
-            </a>
-
-        </div>
+     <div class="resume-buttons">
+    <!-- View Resume -->
+    <a href="Mahendra _Kumar_Resume.pdf" target="_blank" class="resume-btn">View Resume</a>
+    <!-- Download Resume -->
+    <a href="Mahendra _Kumar_Resume.pdf" download class="download-btn">Download Resume</a>
+    </div>
 
     </header>
 
-    <!-- About -->
-
-    <section id="about" class="colorful-section about">
-
-        <h2>👨‍💻 About Me</h2>
-
-        <p class="left-align">
-
-            I’m Mahendra Kumar, currently pursuing
-            B.Tech in Computer Science and Engineering
-            (Data Science) from Lamrin Tech Skills University
-            (2023–2027).
-
-            My passion for Data Science goes beyond academics,
-            driving me to explore innovative solutions,
-            work on real-world projects, and constantly
-            enhance my technical expertise.
-
-        </p>
-
+    <section class="colorful-section about">
+        <h2>👨‍💻About Me</h2>
+        <p class="left-align">I’m Mahendra Kumar, currently pursuing B.Tech in Computer Science and Engineering (Data Science) from Lamrin Tech Skills University (2023–2027). 
+            My passion for Data Science goes beyond academics, driving me to explore innovative solutions, work on real-world projects, and constantly enhance my technical expertise. 
+            I aspire to make meaningful contributions to the field through research, development, and practical applications.</p>
     </section>
 
-    <!-- Skills -->
-
-    <section id="skills" class="colorful-section skills">
-
-        <h2>🛠️ Skills</h2>
-
+    <section class="colorful-section skills">
+        <h2>🛠️Skills</h2>
         <div class="skills-grid">
-
             <div class="skill-item left-align">
-
                 <span class="skill-highlight">Languages:</span>
-
-                <p><strong>Python</strong></p>
-                <p><strong>C++</strong></p>
-                <p><strong>Java</strong></p>
-                <p><strong>DSA with Java</strong></p>
-
+                <p><strong>Python:</strong> </p>
+                <p><strong>C++:</strong> </p>
+                <p><strong>Java:</strong> </p>
+                <p><strong>DSA with Java:</strong> </p>
             </div>
-
             <div class="skill-item left-align">
-
-                <span class="skill-highlight">
-                    Data Analysis:
-                </span>
-
-                <p><strong>NumPy</strong></p>
-                <p><strong>Pandas</strong></p>
-                <p><strong>Matplotlib</strong></p>
-                <p><strong>Power BI</strong></p>
-                <p><strong>Tableau</strong></p>
-
-                <span class="skill-highlight">
-                    Web Development:
-                </span>
-
-                <p><strong>HTML</strong></p>
-                <p><strong>CSS</strong></p>
-                <p><strong>JavaScript</strong></p>
-
+                <span class="skill-highlight">Data Analysis:</span>
+                <p><strong>Turn Data into insights</strong> </p>
+                <p><strong>Numpy,Pandas,Matplotlib:</strong> </p>
+                <p><strong>Machine Learning</strong> </p>
+                <p><strong>power Bi, Tableu:</strong></p>
+                <span class="skill-highlight">Web Development:</span>
+                <p><strong>HTML, CSS:</strong> Proficient in creating and styling web pages for portfolio and basic web applications.</p>
+                <p><strong>Javasscript:</strong>
             </div>
-
         </div>
-
     </section>
 
-    <!-- Projects -->
-
-    <section id="projects" class="colorful-section projects">
-
-        <h2>📂 Projects</h2>
-
+    <section class="colorful-section projects">
+        <h2>📂Projects</h2>
         <ul class="left-align">
-
-            <li>
-
-                <span class="project-title">
-                    <strong>
-                        Insurance Cost Prediction Web App
-                    </strong>
-                </span>
-
-                <ul>
-                    <li>Built regression model for insurance cost prediction</li>
-                    <li>Deployed using Streamlit</li>
-                    <li>Achieved R² score of 0.82</li>
-                    <li>Python, Scikit-learn, Streamlit</li>
-                </ul>
-
-                <p>
-                    <a href="https://insurancecostprediction1.streamlit.app/"
-                       target="_blank">
-                        🚀 Try the App
-                    </a>
-                </p>
-
+            <li><span class="project-title"><strong>(1) Insurance Cost Prediction Web App:</strong></span>
+               <ul>
+                <li>Built a regression model to predict medical insurance costs</li>
+                <li>Deployed as an interactive Streamlit web application</li>
+                <li>Achieved R² score of 0.82</li>
+                <li>Technologies: Python, Scikit-learn, Streamlit, GitHub</li>
+              </ul>
+               <p> <strong><a href="https://insurancecostprediction1.streamlit.app/" target="_blank"> 🚀 **Try the App:**:Insurance Cost Prediction App</a></strong></p>
+                </li>
+            <li><span class="project-title"><strong>Heart Disease Risk Prediction Web Application:</strong></span>
+                 <ul>
+                <li>Built and deployed a Heart Disease Prediction ML Web App using KNN and Streamlit.</li>
+                <li>Achieved reliable predictions through proper preprocessing and feature alignment.</li>
+                <li>End-to-end ML deployment using GitHub + Streamlit Cloud.</li>
+                <li>Technologies: Python, Scikit-learn, Streamlit, GitHub</li>
+              </ul>
+                 <p> <strong><a href="https://heartdiseaseprediction5.streamlit.app/" target="_blank"> 🚀 **Try the App:** :Heart Disease Risk Prediction App</a></strong></p>
             </li>
-
-            <li>
-
-                <span class="project-title">
-                    <strong>
-                        Heart Disease Prediction App
-                    </strong>
-                </span>
-
-                <ul>
-                    <li>Machine Learning prediction system</li>
-                    <li>Built using KNN Algorithm</li>
-                    <li>Deployed on Streamlit Cloud</li>
-                    <li>Python, ML, Streamlit</li>
-                </ul>
-
-                <p>
-                    <a href="https://heartdiseaseprediction5.streamlit.app/"
-                       target="_blank">
-                        🚀 Try the App
-                    </a>
-                </p>
-
-            </li>
-
+            <li><span class="project-title">Predictive Assest Maintanence:</span>Developed a smart maintenance system leveraging IoT and predictive analytics to monitor 
+                equipment health, reduce downtime, optimize asset performance, and enhance decision-making for efficient manufacturing operations </li>
         </ul>
-
     </section>
 
-    <!-- Certifications -->
-
-    <section id="certifications"
-             class="colorful-section certifications">
-
-        <h2>📜 Certifications</h2>
-
+    <section class="colorful-section certifications">
+        <h2>📜Certifications</h2>
         <ul class="left-align">
-
+            <li>International Conference On Research In Mathematics And Data Science (ICRTMDS -2024)</li>
             <li>Power BI Certification</li>
             <li>Java Programming by Udemy</li>
-            <li>Deloitte Data Analytics Job Simulation</li>
-            <li>Machine Learning Workshop</li>
-
+            <li>Deloitte Data Analytics Job Simulation with Forage </li>
+            <li>Machine Learning Workshop </li>
         </ul>
-
     </section>
 
-    <!-- Education -->
-
-    <section id="education"
-             class="colorful-section education">
-
-        <h2>🎓 Education</h2>
-
+    <section class="colorful-section education">
+        <h2>🎓Education</h2>
         <ul class="left-align">
-
-            <li>
-                <span class="education-degree">
-                    B.Tech CSE (Data Science)
-                </span>
-            </li>
-
-            <li>
-                12th - 83.40%
-            </li>
-
-            <li>
-                10th - 88.40%
-            </li>
-
+            <li><span class="education-degree">B.Tech CSE (Data Science)</span> - LTSU, Ropar (2023–2027)</li>
+            <li><span class="education-school">12th:</span> Jawahar Navodaya Vidyalaya Fatehpur(2022) with 83.40%</li>
+            <li><span class="education-school">10th:</span> Jawahar Navodaya Vidyalaya Fatehpur(2020) with 88.40%</li>
         </ul>
-
     </section>
 
-    <!-- Contact -->
-
-    <section id="contact"
-             class="colorful-section contact">
-
-        <h2>📞 Contact</h2>
-
-        <p class="left-align">
-            📧 Email:
-            kumarmahe6585@gmail.com
-        </p>
-
-        <p class="left-align">
-            📞 Phone:
-            +91-9877537238
-        </p>
-
-        <p class="left-align">
-            💻 Github:
-            <a href="https://github.com/Mahendra931"
-               target="_blank">
-                Mahendra931
-            </a>
-        </p>
-
+    <section class="colorful-section contact">
+        <h2>📞Contact</h2>
+        <p class="left-align">📧 Email: kumarmahe6585@gmail.com</p>
+        <p class="left-align">📞 Phone: +91-9877537238</p>
+        <p class="left-align">🔗 LinkedIn: <a href="https://www.linkedin.com/in/mahendrakumar931" target="_blank">linkedin.com/in/mahendra-kumar</a></p>
+         <p class="left-align">💻 Github: <a href="https://github.com/Mahendra931" target="_blank">Github</a></p>
+        <p class="left-align">📍 Location: Fatehpur, Uttar Pradesh, India</p>
     </section>
 
     <script src="portfolio.js"></script>
-
 </body>
 </html>
