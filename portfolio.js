@@ -17,7 +17,7 @@ viewBtn.addEventListener('click', () => {
 
 downloadBtn.addEventListener('click', () => {
     const link = document.createElement('a');
-    link.href = 'Mahendra Kumar Resume Data Anytics.pdf';
+    link.href = 'Mahendra Kumar Resume Data Anaytics.pdf';
     link.download = 'Mahendra Kumar Resume Data Anytics.pdf';
     document.body.appendChild(link);
     link.click();
