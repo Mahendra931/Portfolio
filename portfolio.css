@@ -260,3 +260,126 @@ body {
     }
 }
 
+
+/* =========================
+   MOBILE RESPONSIVE FIX
+========================= */
+
+@media screen and (max-width: 768px) {
+
+    /* Navbar */
+
+    .top-nav {
+        padding: 10px;
+    }
+
+    .top-nav ul {
+
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .top-nav ul li a {
+
+        font-size: 0.9rem;
+        padding: 6px 10px;
+    }
+
+    /* Welcome Text */
+
+    #welcome-text {
+
+        font-size: 2rem;
+        margin-top: 100px;
+        padding: 0 10px;
+    }
+
+    /* Header */
+
+    .colorful-header {
+
+        min-height: auto;
+        padding: 80px 20px;
+    }
+
+    /* Typewriter */
+
+    #typewriter {
+
+        white-space: normal;
+        width: 100%;
+
+        font-size: 1.8rem;
+        line-height: 1.4;
+
+        border-right: none;
+
+        animation: none;
+    }
+
+    /* Subtitle */
+
+    .header-subtitle {
+
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+    /* Profile Image */
+
+    .profile-image-container {
+
+        width: 120px;
+        height: 120px;
+    }
+
+    /* Resume Buttons */
+
+    .resume-buttons {
+
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .resume-buttons a {
+
+        width: 80%;
+        text-align: center;
+    }
+
+    /* Sections */
+
+    .colorful-section {
+
+        margin: 15px;
+        padding: 20px;
+    }
+
+    /* Skills */
+
+    .skills-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+    /* Headings */
+
+    h2 {
+
+        font-size: 1.6rem;
+    }
+
+    /* Paragraphs */
+
+    p,
+    li {
+
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+}
+
+
+
