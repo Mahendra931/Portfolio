@@ -26,13 +26,10 @@ h2 {
     text-align: left;
 }
 
-/* Welcome Text */
+/* Remove Extra Welcome Gap */
 
 #welcome-text {
-    color: #ff6b6b;
-    text-align: center;
-    margin-top: 80px;
-    font-size: 3rem;
+    display: none;
 }
 
 /* =========================
@@ -44,26 +41,24 @@ h2 {
     text-align: center;
     padding: 40px 20px;
 
-    /* PURPLE BACKGROUND + IMAGE */
+    /* Purple Background + Image Slider */
 
     background:
     linear-gradient(
-    rgba(44, 62, 80, 0.75),
-    rgba(74, 20, 140, 0.75)
+        rgba(44, 62, 80, 0.82),
+        rgba(74, 20, 140, 0.82)
     ),
-    url('images/bg1.png');
+    url('bg1.png');
 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
-    /* ANIMATION */
-
     animation:
         backgroundSlider 20s infinite,
         header-glow 3s infinite alternate;
 
-    transition: background-image 1s ease-in-out;
+    transition: all 1s ease;
 
     color: #fff;
 
@@ -80,7 +75,6 @@ h2 {
 
     gap: 20px;
 
-    position: relative;
     overflow: hidden;
 }
 
@@ -227,7 +221,9 @@ h2 {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
-/* Skills */
+/* =========================
+   SKILLS
+========================= */
 
 .skills-grid {
 
@@ -349,50 +345,65 @@ h2 {
 
         background:
         linear-gradient(
-        rgba(44, 62, 80, 0.75),
-        rgba(74, 20, 140, 0.75)
+            rgba(44, 62, 80, 0.82),
+            rgba(74, 20, 140, 0.82)
         ),
-        url('images/bg1.png');
+        url('bg1.png');
+
+        background-size: cover;
+        background-position: center;
     }
 
     25% {
 
         background:
         linear-gradient(
-        rgba(44, 62, 80, 0.75),
-        rgba(74, 20, 140, 0.75)
+            rgba(44, 62, 80, 0.82),
+            rgba(74, 20, 140, 0.82)
         ),
-        url('images/bg2.png');
+        url('bg2.png');
+
+        background-size: cover;
+        background-position: center;
     }
 
     50% {
 
         background:
         linear-gradient(
-        rgba(44, 62, 80, 0.75),
-        rgba(74, 20, 140, 0.75)
+            rgba(44, 62, 80, 0.82),
+            rgba(74, 20, 140, 0.82)
         ),
-        url('images/bg3.png');
+        url('bg3.png');
+
+        background-size: cover;
+        background-position: center;
     }
 
     75% {
 
         background:
         linear-gradient(
-        rgba(44, 62, 80, 0.75),
-        rgba(74, 20, 140, 0.75)
+            rgba(44, 62, 80, 0.82),
+            rgba(74, 20, 140, 0.82)
         ),
-        url('images/bg4.png');
+        url('bg4.png');
+
+        background-size: cover;
+        background-position: center;
     }
 
     100% {
 
         background:
         linear-gradient(
-        rgba(44, 62, 80, 0.75),
-        rgba(74, 20, 140, 0.75)
+            rgba(44, 62, 80, 0.82),
+            rgba(74, 20, 140, 0.82)
         ),
-        url('images/bg1.png');
+        url('bg1.png');
+
+        background-size: cover;
+        background-position: center;
     }
 }
 
@@ -443,15 +454,6 @@ h2 {
         font-size: 0.9rem;
 
         padding: 6px 10px;
-    }
-
-    #welcome-text {
-
-        font-size: 2rem;
-
-        margin-top: 100px;
-
-        padding: 0 10px;
     }
 
     .colorful-header {
