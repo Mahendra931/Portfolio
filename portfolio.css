@@ -44,12 +44,20 @@ h2 {
     text-align: center;
     padding: 40px 20px;
 
-    /* Background Slider */
+    /* PURPLE BACKGROUND + IMAGE */
 
-    background-image: url('images/bg1.png');
+    background:
+    linear-gradient(
+    rgba(44, 62, 80, 0.75),
+    rgba(74, 20, 140, 0.75)
+    ),
+    url('images/bg1.png');
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    /* ANIMATION */
 
     animation:
         backgroundSlider 20s infinite,
@@ -74,31 +82,6 @@ h2 {
 
     position: relative;
     overflow: hidden;
-}
-
-/* Overlay */
-
-.colorful-header::before {
-
-    content: "";
-
-    position: absolute;
-
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 100%;
-
-    background: rgba(0,0,0,0.45);
-}
-
-/* Keep content above overlay */
-
-.colorful-header * {
-
-    position: relative;
-    z-index: 2;
 }
 
 /* =========================
@@ -363,23 +346,53 @@ h2 {
 @keyframes backgroundSlider {
 
     0% {
-        background-image: url('images/bg1.png');
+
+        background:
+        linear-gradient(
+        rgba(44, 62, 80, 0.75),
+        rgba(74, 20, 140, 0.75)
+        ),
+        url('images/bg1.png');
     }
 
     25% {
-        background-image: url('images/bg2.png');
+
+        background:
+        linear-gradient(
+        rgba(44, 62, 80, 0.75),
+        rgba(74, 20, 140, 0.75)
+        ),
+        url('images/bg2.png');
     }
 
     50% {
-        background-image: url('images/bg3.png');
+
+        background:
+        linear-gradient(
+        rgba(44, 62, 80, 0.75),
+        rgba(74, 20, 140, 0.75)
+        ),
+        url('images/bg3.png');
     }
 
     75% {
-        background-image: url('images/bg4.png');
+
+        background:
+        linear-gradient(
+        rgba(44, 62, 80, 0.75),
+        rgba(74, 20, 140, 0.75)
+        ),
+        url('images/bg4.png');
     }
 
     100% {
-        background-image: url('images/bg1.png');
+
+        background:
+        linear-gradient(
+        rgba(44, 62, 80, 0.75),
+        rgba(74, 20, 140, 0.75)
+        ),
+        url('images/bg1.png');
     }
 }
 
@@ -411,8 +424,6 @@ h2 {
 
 @media screen and (max-width: 768px) {
 
-    /* Navbar */
-
     .top-nav {
 
         padding: 10px;
@@ -434,8 +445,6 @@ h2 {
         padding: 6px 10px;
     }
 
-    /* Welcome */
-
     #welcome-text {
 
         font-size: 2rem;
@@ -445,14 +454,10 @@ h2 {
         padding: 0 10px;
     }
 
-    /* Header */
-
     .colorful-header {
 
         padding: 60px 20px;
     }
-
-    /* Typewriter */
 
     #typewriter {
 
@@ -465,8 +470,6 @@ h2 {
         animation: none;
     }
 
-    /* Subtitle */
-
     .header-subtitle {
 
         font-size: 1rem;
@@ -474,15 +477,11 @@ h2 {
         padding: 0 10px;
     }
 
-    /* Profile */
-
     .profile-image-container {
 
         width: 120px;
         height: 120px;
     }
-
-    /* Buttons */
 
     .resume-buttons {
 
@@ -498,8 +497,6 @@ h2 {
         text-align: center;
     }
 
-    /* Sections */
-
     .colorful-section {
 
         margin: 15px;
@@ -507,21 +504,15 @@ h2 {
         padding: 20px;
     }
 
-    /* Skills */
-
     .skills-grid {
 
         grid-template-columns: 1fr;
     }
 
-    /* Headings */
-
     h2 {
 
         font-size: 1.6rem;
     }
-
-    /* Text */
 
     p,
     li {
